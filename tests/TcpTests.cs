@@ -57,7 +57,7 @@ namespace tests
 
     public class TcpTests
     {
-        [Fact(DisplayName = "TCP server test")]
+        [Fact]
         public void TcpServerTest()
         {
             string address = "127.0.0.1";
@@ -109,7 +109,7 @@ namespace tests
             Assert.True(!client.Errors);
         }
 
-        [Fact(DisplayName = "TCP server multicast test")]
+        [Fact]
         public void TcpServerMulticastTest()
         {
             string address = "127.0.0.1";
@@ -215,7 +215,7 @@ namespace tests
             Assert.True(!client3.Errors);
         }
 
-        [Fact(DisplayName = "TCP server random test")]
+        [Fact]
         public void TcpServerRandomTest()
         {
             string address = "127.0.0.1";

@@ -37,7 +37,7 @@ namespace tests
 
     public class UdpMulticastTests
     {
-        [Fact(DisplayName = "UDP server multicast test")]
+        [Fact]
         public void UdpMulticastServerTest()
         {
             string listenAddress = "0.0.0.0";
@@ -169,7 +169,7 @@ namespace tests
             Assert.True(!client3.Errors);
         }
 
-        [Fact(DisplayName = "UDP server multicast random test")]
+        [Fact]
         public void UdpMulticastServerRandomTest()
         {
             string listenAddress = "0.0.0.0";

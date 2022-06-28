@@ -57,7 +57,7 @@ namespace tests
 
     public class UdsTests
     {
-        [Fact(DisplayName = "Unix Domain Socket server test")]
+        [Fact]
         public void UdsServerTest()
         {
             string path = Path.Combine(Path.GetTempPath(), "test.sock");
@@ -108,7 +108,7 @@ namespace tests
             Assert.True(!client.Errors);
         }
 
-        [Fact(DisplayName = "Unix Domain Socket server multicast test")]
+        [Fact]
         public void UdsServerMulticastTest()
         {
             string path = Path.Combine(Path.GetTempPath(), "test.sock");
@@ -213,7 +213,7 @@ namespace tests
             Assert.True(!client3.Errors);
         }
 
-        [Fact(DisplayName = "Unix Domain Socket server random test")]
+        [Fact]
         public void UdsServerRandomTest()
         {
             string path = Path.Combine(Path.GetTempPath(), "test.sock");

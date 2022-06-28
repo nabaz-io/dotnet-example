@@ -39,7 +39,7 @@ namespace tests
 
     public class UdpTests
     {
-        [Fact(DisplayName = "UDP server test")]
+        [Fact]
         public void UdpServerTest()
         {
             string address = "127.0.0.1";
@@ -89,7 +89,7 @@ namespace tests
             Assert.True(!client.Errors);
         }
 
-        [Fact(DisplayName = "UDP server random test")]
+        [Fact]
         public void UdpServerRandomTest()
         {
             string address = "127.0.0.1";

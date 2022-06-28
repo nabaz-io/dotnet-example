@@ -151,7 +151,7 @@ namespace tests
 
     public class HttpTests
     {
-        [Fact(DisplayName = "HTTP server test")]
+        [Fact]
         public void HttpServerTest()
         {
             string address = "127.0.0.1";

@@ -261,7 +261,7 @@ namespace tests
 
     public class ProtoTests
     {
-        [Fact(DisplayName = "Protocol server test")]
+        [Fact]
         public void ProtoServerTest()
         {
             string address = "127.0.0.1";
@@ -314,7 +314,7 @@ namespace tests
             Assert.True(!client.TcpClient.Errors);
         }
 
-        [Fact(DisplayName = "Protocol multicast test")]
+        [Fact]
         public void ProtoServerMulticastTest()
         {
             string address = "127.0.0.1";
@@ -410,7 +410,7 @@ namespace tests
             Assert.True(!client3.TcpClient.Errors);
         }
 
-        [Fact(DisplayName = "Protocol server random test")]
+        [Fact]
         public void TcpServerRandomTest()
         {
             string address = "127.0.0.1";

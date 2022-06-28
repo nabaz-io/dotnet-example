@@ -86,7 +86,7 @@ namespace tests
 
     public class WssTests
     {
-        [Fact(DisplayName = "WebSocket secure server test")]
+        [Fact]
         public void WssServerTest()
         {
             string address = "127.0.0.1";
@@ -144,7 +144,7 @@ namespace tests
             Assert.True(!client.Errors);
         }
 
-        [Fact(DisplayName = "WebSocket secure server multicast test")]
+        [Fact]
         public void WssServerMulticastTest()
         {
             string address = "127.0.0.1";
@@ -256,7 +256,7 @@ namespace tests
             Assert.True(!client3.Errors);
         }
 
-        [Fact(DisplayName = "WebSocket secure server random test")]
+        [Fact]
         public void WssServerRandomTest()
         {
             string address = "127.0.0.1";

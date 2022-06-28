@@ -108,7 +108,7 @@ namespace tests
 
     public class HttpsTests
     {
-        [Fact(DisplayName = "HTTPS server test")]
+        [Fact]
         public void HttpsServerTest()
         {
             string address = "127.0.0.1";

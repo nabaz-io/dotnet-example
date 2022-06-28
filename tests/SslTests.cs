@@ -75,7 +75,7 @@ namespace tests
 
     public class SslTests
     {
-        [Fact(DisplayName = "SSL server test")]
+        [Fact]
         public void SslServerTest()
         {
             string address = "127.0.0.1";
@@ -135,7 +135,7 @@ namespace tests
             Assert.True(!client.Errors);
         }
 
-        [Fact(DisplayName = "SSL server multicast test")]
+        [Fact]
         public void SslServerMulticastTest()
         {
             string address = "127.0.0.1";
@@ -248,7 +248,7 @@ namespace tests
             Assert.True(!client3.Errors);
         }
 
-        [Fact(DisplayName = "SSL server random test")]
+        [Fact]
         public void SslServerRandomTest()
         {
             string address = "127.0.0.1";
